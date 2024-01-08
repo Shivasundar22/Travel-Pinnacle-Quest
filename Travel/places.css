@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(30deg,rgb(90, 88, 88),rgb(39, 36, 36));
+    color: rgb(66,68,68);
+}
+header{
+    position: static;
+}
+#page-logo a{
+    text-decoration: none;
+    padding: 8px;
+    font-family: "oleo Script",sans-serif;
+    color: rgb(160, 229, 245);
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: -3px -3px 5px rgb(0,0,0);
+    
+}
+header nav a{
+    color: rgb(19, 239, 232);
+    text-decoration: none;
+    font-size: 22px;
+    padding: 13px;
+    text-shadow: 1px 1px 2px rgba(215, 81, 81, 0.8);
+}
+
+header nav a:hover{
+    color: rgb(77,77,77);
+    background-color: rgb(19, 239, 206);
+    border-radius: 12px;
+
+}
+
+
+
+main ul{
+    width: 1200px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+
+ }
+ li:nth-of-type(3){
+    grid-column: 1 / span 2;
+ }
+main li{
+    display: flex;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 2, 0.6);
+    border-radius: 7px;
+    overflow: hidden;
+    
+
+}
+
+main li img{
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+    
+   
+}
+
+.item-content{
+    padding: 24px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+       
+}
+
+.actions
+    {
+        text-align: right;
+    }
+    
+    
+.actions a
+{
+        text-decoration: none;
+        font-weight: 600;
+        padding: 8px;
+        color: rgb(22,211,228);
+        border-radius: 9px;
+    }
+    
+.actions a:hover
+    {
+        background-color: rgb(161, 227, 233);
+        border-radius: 9px;
+    }
